@@ -6,3 +6,5 @@ second_project/flask-tutorial/venv/
 *.pyc
 __pychace__/
 instance/
+
+R_trial/
