@@ -17,10 +17,12 @@ test_data = [
 #     response = requests.put(BASE + "beleggingsfonds/" + str(i), test_data[i])
 #     print(response)
 
-response = requests.put(BASE + "/beleggingsfonds/99", {"name": "pietjepuk", "rate": 88})
+# response = requests.get(
+# BASE + "/beleggingsfonds/99", {"name": "pietjepuk", "rate": 88}
+# )
 # print(type(response))
-print(response)
-input()
-print(BASE + "beleggingsfonds/33")
-response = requests.get(BASE + "beleggingsfonds/33")
+# print(response)
+# input()
+# print(BASE + "beleggingsfonds/33")
+response = requests.get(BASE + "beleggingsfonds/1")
 print(response)
